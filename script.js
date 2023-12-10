@@ -52,8 +52,8 @@ function appendToDisplay(value) {
 }
 
 function isOperator(char) {
-    // Проверка, является ли символ оператором
-    return ['+', '-', '*', '/'].includes(char);
+  // Проверка, является ли символ оператором
+  return ['+', '-', '*', '/'].includes(char);
 }
 
 function reset() {
@@ -96,4 +96,3 @@ function calculate() {
     display.value = 'Error';
   }
 }
-
